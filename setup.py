@@ -14,4 +14,5 @@ setup(
     license="MIT",
     description="Normalize text to remove unicode lookalike characters.",
     install_requires=requirements,
+    include_package_data=True,
 )
