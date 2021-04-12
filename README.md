@@ -6,3 +6,11 @@ This repo exists because of a need to create better filters that can stand up to
 
 
 ### Note: Although this is an installable python library the letter list is 100% available for use without python, this is just so that it can be used as a python library too.
+
+To install the package use `pip install text-normalize`
+Usage:
+```py
+from normalize import normalize
+
+norm = normalize("text")
+```
